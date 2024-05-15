@@ -80,7 +80,7 @@ async def extract_text(image: UploadFile = File(...)):
     return {"score": score,"extracted_text": extracted_text}
 
 
-'''
+
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)'''
+    uvicorn.run(app, host="127.0.0.1", port=8000)
